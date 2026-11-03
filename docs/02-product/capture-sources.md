@@ -1,7 +1,7 @@
 # Capture Sources
 
 > **Purpose:** Describe how transactions enter Buckets per platform, and what coverage to expect.
-> **Status:** Draft · **Last updated:** 2026-11-02
+> **Status:** Draft · **Last updated:** 2026-11-03
 > **Related:** [ADR-003](../04-delivery/decisions/ADR-003-server-side-capture-parsing.md) · [Glossary: Capture Event](../00-foundation/glossary.md#capture-event) · [Releases](../04-delivery/releases.md)
 
 The first version must capture transactions automatically from wallet and banking-app signals. Processing rules (server-side parsing, idempotency, dedup, raw-text retention) live in [ADR-003](../04-delivery/decisions/ADR-003-server-side-capture-parsing.md).
@@ -32,5 +32,5 @@ Wallet signals cover only tap / Apple Pay / Google Pay payments. Income, transfe
 ## Open items
 
 - Banks/wallets to cover first (e.g. Bancolombia, Nequi, Daviplata).
-- SMS and email as additional sources.
+- SMS and email: deferred to R1.x; R1 captures from notifications only ([releases](../04-delivery/releases.md)).
 - Spike: log raw notification text for ~1 week to learn real formats ([releases](../04-delivery/releases.md)).
