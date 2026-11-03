@@ -337,7 +337,7 @@ Events and derived views must not make the source of truth ambiguous. Define own
 
 The product should be accessible on mobile as well as web. Mobile is strategically important because capturing transactions should involve as little friction as possible.
 
-Angular and .NET were discussed as likely technologies, with web and mobile experiences in mind. The final architecture decision is open. Evaluate whether the first mobile release should be responsive/PWA, cross-platform, or staged. Avoid maintaining separate implementations unnecessarily.
+The technology stack is not decided. Evaluate whether the first mobile release should be responsive/PWA, cross-platform, or staged. Avoid maintaining separate implementations unnecessarily.
 
 ### Automation and transaction capture
 
@@ -417,7 +417,7 @@ This release should already be useful to a user who only wants a register and ba
 
 ## 15. Suggested Documentation Repository
 
-The project previously established the intention to keep documentation in English and maintain it in GitHub repository `alejandrobtz/buckets-product-docs`, with manual uploads acceptable if connector access is unavailable.
+The project previously established the intention to keep documentation in English and maintain it in GitHub repository `alejandrobtz/buckets`, with manual uploads acceptable if connector access is unavailable.
 
 ```text
 /
