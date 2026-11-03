@@ -22,6 +22,7 @@
   - Android: notification listener for wallets and bank apps.
   - iOS: Shortcuts automation with the Wallet "Transaction" trigger.
 - **Backend:** idempotent `POST /capture-events`, server-side parsing, review queue for uncertain items, cross-source dedup ([ADR-003](decisions/ADR-003-server-side-capture-parsing.md)).
+- **Immediate categorization prompt** for PSE and Bre-B payments, shown when the notification is captured (Android full, iOS partial); see [capture sources](../02-product/capture-sources.md#immediate-categorization-of-pse-and-bre-b-payments).
 - **Trust:** source indicators and [Data Confidence](../00-foundation/glossary.md#data-confidence), including visible partial coverage.
 - **Optional:** CSV import, only if it can be made reliable (per brief).
 
