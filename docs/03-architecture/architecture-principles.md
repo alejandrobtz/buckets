@@ -1,10 +1,10 @@
 # Architecture Principles
 
 > **Purpose:** Stack-agnostic architectural constraints.
-> **Status:** Draft · **Last updated:** 2026-11-02
+> **Status:** Draft · **Last updated:** 2026-11-03
 > **Related:** [Bounded contexts](../01-domain/bounded-contexts.md) · [ADR-001](../04-delivery/decisions/ADR-001-central-backend.md) · [ADR-003](../04-delivery/decisions/ADR-003-server-side-capture-parsing.md) · [Product principles](../00-foundation/product-principles.md)
 
-1. **Modular monolith** with explicit module boundaries; not microservices.
+1. **Modular monolith** with explicit module boundaries; not microservices ([ADR-004](../04-delivery/decisions/ADR-004-modular-monolith.md)).
 2. **Central backend, API-first.** All core logic lives server-side behind an OpenAPI contract; clients are generated and thin ([ADR-001](../04-delivery/decisions/ADR-001-central-backend.md)).
 3. **Money as integers** in minor units plus currency; no floats.
 4. **Deterministic core.** Balances, periods and dedup are reproducible and auditable; AI sits outside the financial source of truth.

@@ -1,6 +1,6 @@
 # Buckets
 
-> **Status:** Draft · **Last updated:** 2026-11-02
+> **Status:** Draft · **Last updated:** 2026-11-03
 
 Buckets is a financial operating system for individuals and households: it moves people from *recording transactions* to *understanding, planning and deciding*.
 
@@ -18,7 +18,7 @@ Tracker-only use (log income and expenses, see balances) is a valid, permanent m
 | Product | [docs/02-product/capture-sources.md](docs/02-product/capture-sources.md) | How transactions enter the system, per platform. |
 | Architecture | [docs/03-architecture/architecture-principles.md](docs/03-architecture/architecture-principles.md) | Architectural constraints (stack-agnostic). |
 | Delivery | [docs/04-delivery/releases.md](docs/04-delivery/releases.md) | Proposed release roadmap R0–R5. |
-| Delivery | [docs/04-delivery/decisions/](docs/04-delivery/decisions/) | Architecture Decision Records (ADR-001…003). |
+| Delivery | [docs/04-delivery/decisions/](docs/04-delivery/decisions/) | Architecture Decision Records (ADR-001…004). |
 
 ## Conventions
 
